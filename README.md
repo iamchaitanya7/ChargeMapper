@@ -1,6 +1,6 @@
 ---
 title: Optimal Placement Of EV Stations
-emoji:🔋
+emoji: 👀
 colorFrom: red
 colorTo: indigo
 sdk: streamlit
