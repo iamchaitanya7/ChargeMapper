@@ -125,6 +125,12 @@ In our work, we focused on the following tasks:
   <figcaption>Data Collection Pipeline</figcaption>
 </figure>
 
+<figure style="text-align:center">
+  <img
+  src="figures/modelling.png"
+  alt="pipeline">
+</figure>
+
 ### How replicate results
 1. set path_root_dir in notebook/modeling.ipynb
 2. results will be created under result directory
