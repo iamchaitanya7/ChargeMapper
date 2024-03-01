@@ -10,14 +10,16 @@
 <br />
 <div align="center">
   <a href="https://github.com/iamchaitanya7/Optimal-Placement-of-EVs-Charging-Stations-ML">
-    <img src="ev_logo.jpg" alt="Logo" width="500" height="300">
+    <img src="figures/EV-charging.jpg" alt="Logo" width="600" height="300">
   </a>
 
-  <h3 align="center">Optimal Placement of EV Charging Station.</h3>
-
+  <h1 align="center">Optimal Placement of EV Charging Stations.</h1>
   <p align="center">
-    Data Science/Machine Learning-2024
-    <br />
+    <div align="center">
+  <h1><img width="30" src="https://madewithml.com/static/images/rounded_logo.png">&nbsp;<a href="https://github.com/iamchaitanya7/Optimal-Placement-of-EVs-Charging-Stations-ML">Made With ML</a></h1>
+<h3 > Data Prep · Analyse Data · Build Model · Deploy Model · Iterate </h3>
+<br>
+</div>
     <a href="https://huggingface.co/spaces/chaitanya-gawali/ev_station_placement">Dashboard</a>
     ·
     <a href="https://docs.google.com/presentation/d/1DvyXtf6PmHJlR4AY10__-B9UUPlWWLx9KHOHKlJr2W0/edit#slide=id.g20a8aeeec89_3_133">Presentation</a>
@@ -36,9 +38,9 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li><a href="#folder-structure">Folder structure</a></li>
-    <li><a href="#data">Data and Usage</a></li>
+    <li><a href="#data-and-usage">Data and Usage</a></li>
     <li><a href="#dashboard">Dashboard</a></li>
-    <li><a href="#team-memebers">Team Members</a></li>
+    <li><a href="#team-members">Team Members</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#paper-and-citation">Paper and Citation</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -57,10 +59,10 @@ In our work, we focused on the following tasks:
 * Geographical and socio-economic variables can serve as indicators or proxies for understanding the demand for EV charging stations.
 * The project aims to create an exhaustive dataset considering the socio-demographic features of Germany and solve the problem of Optimal EVCS placement using classical ML algorithms.
 * The study evaluates different ML models and compares their performance to identify the most suitable approach.
-* The findings contribute to understanding Optimal EVCS placement and facilitate automated decision-making in expanding EVs charging infrastructure.
+* The findings contribute to understanding Optimal EVCS placement and facilitate automated decision-making in expanding EV charging infrastructure.
 
 ## Folder structure
-- All the code can be found under notebook/
+- All the code can be found under notebooks/
 - The final dataset can be found under data/processed/all_city_data_with_pop.csv
 ```
 ├── Dashboard
@@ -78,8 +80,12 @@ In our work, we focused on the following tasks:
 │       ├── karlsruhe_data_detailed.csv
 │       ├── Mainz_data_detailed.csv
 │       └── Saarbrücken_data_detailed.csv
-│   └── raw
+│   └── modelling_results
+|       ├── all_city_model_results
+|   └── predicted_results_all_cities
+|       ├── all_city_predictions
 ├── figures
+|   ├── EDA
 │   ├── XX.png
 ├── notebooks
 │   ├── CITY_NAME.ipynb
@@ -88,12 +94,29 @@ In our work, we focused on the following tasks:
 │   ├── EDA.ipynb
 │   ├── make_data_set.ipynb
 │   ├── map_images
-│   │   ├── xx.jpg
+│       ├── xx.jpg
 │   ├── modeling.ipynb
 │   ├── plots.ipynb
+├── report
 └── README.md
 ```
 
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/iamchaitanya7/Optimal-Placement-of-EVs-Charging-Stations-ML.git
+   
+2. Install dependencies:
+     ```bash
+   pip install -r requirements.txt
+
+3. Run the Streamlit web application:
+     ```bash
+   streamlit run main.py
+
+   
 ## Data and Usage
 <figure style="text-align:center">
   <img
@@ -110,7 +133,7 @@ In our work, we focused on the following tasks:
 
 1. Download data from [here](https://drive.google.com/drive/folders/1j2lwYuwfH4WuZ8j0VPc17SbCqO11yYYJ?usp=sharing)
 2. Set path_to_downlaoded_data in notebooks/make_data_set.ipynb
-3. run the notebook and data will be created
+3. Run the notebook and data will be created.
 
 
 ## Dashboard
@@ -119,17 +142,25 @@ The dashboard is created with Streamlit in Python, which is an open-source frame
   <img
   src="/figures/dashboard.png"
   alt="pipeline">
-  <figcaption>Data Collection Pipeline</figcaption>
+  <figcaption>Streamlit application</figcaption>
 </figure>
 
 [Link to the app hosted on hugging-face](https://huggingface.co/spaces/chaitanya-gawali/ev_station_placement)
 
-Dashboard code can be found under: [Dashboard](https://github.com/iamchaitanya7/Optimal-Placement-of-EVs-Charging-Stations-ML/main/Dashboard)
+Dashboard code can be found under: [Dashboard](Dashboard)
+
+## Features
+
+- Visualization of existing EV charging stations and socio-economic data on an interactive map.
+- Selection of multiple cities for detailed analysis.
+- Display of various points-of-interest (POIs) such as parks, parking spaces, restaurants, schools, etc.
+- Population density overlay on the map.
+- Prediction of optimal locations for new EV charging stations.
 
 ## Roadmap
 
 - [x] Collect and gather data for the task
-- [x] Performed EDA [EDA_Notebook_1](https://github.com/iamchaitanya7/Optimal-Placement-of-EVs-Charging-Stations-ML) [EDA Notebook_2](https://github.com/iamchaitanya7/Optimal-Placement-of-EVs-Charging-Stations-ML)
+- [x] Performed EDA [EDA_Notebook_1](notebooks/EDA.ipynb) | [EDA Notebook_2](notebooks/project_EDA.ipynb)
 - [x] Developed Machine Learning Model 
 - [x] Deployment of final prototype to [Dashboard](https://huggingface.co/spaces/chaitanya-gawali/ev_station_placement) for the end user. 
 
