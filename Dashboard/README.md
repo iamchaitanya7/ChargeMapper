@@ -9,5 +9,5 @@ app_file: app.py
 pinned: false
 ---
 
-# ev_charging_placements
+# Optimal Placements of EV Charging Stations
  
