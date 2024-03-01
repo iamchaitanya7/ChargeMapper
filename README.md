@@ -141,7 +141,7 @@ Dashboard code can be found under: [Dashboard](https://github.com/iamchaitanya7/
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-We would like to thank Prof. Dr.-Ing. Wolfgang Maaß and tutors of Data Science course 2023 at Saarland University for giving us the opportunity to work in such a industry-relevant project. We would also like to acknowledge the following repositories/organizations for making this project successful. 
+We would like to thank Prof.M.D.Ingle and tutors of Computer Engineering at Jayawantrao Sawant College of Engineering for allowing us to work on such an industry-relevant project. We would also like to acknowledge the following repositories/organizations for making this project successful. 
 - OpenStreetmap: (https://www.openstreetmap.org)
 - German Federal Network Agency: (https://www.bundesnetzagentur.de)
 - Humanitarian Data Exchange: (https://data.humdata.org)
