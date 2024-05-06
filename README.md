@@ -22,10 +22,6 @@
 </div>
     <a href="https://huggingface.co/spaces/chaitanya-gawali/ev_station_placement">Dashboard</a>
     ·
-    <a href="https://docs.google.com/presentation/d/1DvyXtf6PmHJlR4AY10__-B9UUPlWWLx9KHOHKlJr2W0/edit#slide=id.g20a8aeeec89_3_133">Presentation</a>
-    ·
-    <a href="https://youtu.be/kW-kBFeq9E0">Video</a>
-    .
     <a href="https://github.com/iamchaitanya7/Optimal-Placement-of-EVs-Charging-Stations-ML">Report</a>
   </p>
 </div>
