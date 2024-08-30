@@ -1,10 +1,10 @@
 ---
-title: Ev Station Placement
+title: Optimal-Placement-of-EV-Charging-Stations
 emoji: ⚡
-colorFrom: red
+colorFrom: orange
 colorTo: gray
 sdk: streamlit
-sdk_version: 1.31.1
+sdk_version: 1.38.0
 app_file: app.py
 pinned: false
 ---
